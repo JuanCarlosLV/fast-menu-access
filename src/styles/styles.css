@@ -1,0 +1,107 @@
+/*Fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@400;700&display=swap");
+
+body {
+  margin: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title , .subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: black;
+  color: white;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  gap: 40px;
+  padding: 15px 15px;
+  
+}
+
+.autor-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  border-bottom: 2px solid black;
+  margin: 50px 20px 20px 20px;
+}
+
+.picture-profile img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+/*prueba dropdown*/
+
+
+
+.container-option {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.header-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 10px;
+  background-color: #9F5015;
+ 
+}
+
+
+/* icons streaming*/
+
+.typography {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px 20px 20px;
+  border-radius: 1em;
+  box-shadow: 2px 2px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #263547;
+  color: white;
+}
