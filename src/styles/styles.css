@@ -23,53 +23,73 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   background-color: black;
   color: white;
 }
 
 .options {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 45px;
+  margin: 20px;
   border-radius: 7px;
-  gap: 40px;
   padding: 15px 15px;
   
 }
 
-.autor-section {
-  margin-top: 20px;
+.categories{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  margin: 30px 80px;
+
+}
+
+
+
+.container-option{
+  display: flex;
+  flex: 0 0 calc(22% - 5px);
   align-items: center;
-  gap: 35px;
-  border-bottom: 2px solid black;
-  margin: 50px 20px 20px 20px;
-}
-
-.picture-profile img{
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid red;
-}
-
-/*prueba dropdown*/
-
-
-
-.container-option {
+  box-sizing: border-box;
+  justify-content: center;
   width: 200px;
   height: 150px;
   border-radius: 10px;
+
+}
+
+
+.container-option img{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.container-option:hover{
+  filter: grayscale(70%);
+  transform: scale(1.1);
+}
+
+.container-option:hover .title-option{
+  opacity: 1;
   background-color: black;
+}
+
+.title-option{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  opacity: 0;
+  padding: 6px;
+ 
 }
 
 .title {
   font-family: "Montserrat", sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   color: white;
 }
 
@@ -81,13 +101,16 @@ body {
   padding: 0 15px;
   border-radius: 10px;
   background-color: #9F5015;
- 
 }
 
+.header-category img{
+  padding: 15px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
 
-/* icons streaming*/
-
-.typography {
+.category-container {
   display: flex;
   flex-direction: column;
   margin: 50px 20px 20px 20px;
@@ -100,8 +123,26 @@ body {
 .footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  background: #263547;
+  background: black;
   color: white;
+  font-family:'Nunito', sans-serif ;
+  padding: 30px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+
+.profile-section img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
 }
