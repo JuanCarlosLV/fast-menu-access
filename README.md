@@ -32,4 +32,5 @@ Este menú de acceso rápido se divide en subcategorias los cuales contienen div
 Website:
 ![screenshot-website](/public/pagina-web.PNG)
 
-Link de la página: 
+Link de la página: https://fast-access-menu.netlify.app/
+
