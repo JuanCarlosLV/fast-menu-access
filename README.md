@@ -22,6 +22,7 @@ El objetivo de esta práctica es diseñar y desarrollar un sitio web bien estruc
 ## Temática del sitio web
 En esta página web se tiene como tema "Librería de recursos gratuitos para Diseñadores UI/UX".
 Este menú de acceso rápido se divide en subcategorias los cuales contienen diversas accesos a diversos contenidos dependiendo de la subcategoria.
+De igual forma se puse una función para desplegar o comprimir cada una de las pestañas de las categorias que hay en el sitio web.
 
 ### Tecnologías utilizadas
 * HTML
