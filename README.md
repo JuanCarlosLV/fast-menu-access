@@ -7,34 +7,30 @@ Construir una página web listicle con HTML y CSS.
 
 ## Indice
 * [Presentación](#Presentación)
-* [¿Qué es un listicle?](#¿Qué-es-un-Listicle?)
-* [Desarrollo del Listicle](#Desarrollo-del-Listicle)
-* [Página Listicle](#Página-Listicle)
+* [Objetivo de la práctica](#Objetivo-de-la-práctica)
+* [Desarrollo del Menú](#Desarrollo-del-Menú)
+* [Página Menú Fast Access](#Página-Menú-Fast-Access)
 
 ## Presentación
 * Alumno: Juan Carlos López Villegas
 * Experiencia Educativa: Desarrollo de Sistemas Web
 * Institución: Universidad Veracruzana
 * Profesor: Dr. Jóse Antonio Vergara Camacho
-* Fecha: 28/09/2023
-## ¿Qué es un Listicle?
-Los listicles también conocidos como listados, son articulos estructurados basados en listas, por lo general cada elemento de desarrolla en forma de lista con información adicional para hacerlo más útil para los usarios.
-### ¿Pórque le gusta al público los listicles?
-Entre otras cosas, las principales razones por las que los usuarios prefieren o les gustan este tipo de estructura de página web:
-* Fáciles para hechar un vistazo
-Cada subtitulo corresponde con un elemento de la lista
-* Fáciles de digerir
-Estan dividos en partador por definición
-* Fáciles de calcular 
-Puedes saber cuantó te queda por leer debido al numero en el titular
-## Desarrollo del Listicle
+* Fecha: 06/10/2023
+## Objetivo de la práctica
+El objetivo de esta práctica es diseñar y desarrollar un sitio web bien estructurado el cual incorpore un menpu de acceso rápido hacia diversas páginas.
+### Temática del sitio web
+En esta página web se tiene como tema "Librería de recursos gratuitos para Diseñadores UI/UX".
+Este menú de acceso rápido se divide en subcategorias los cuales contienen diversas accesos a diversos contenidos dependiendo de la subcategoria.
+
+## Desarrollo del Menú
 ### Tecnologías utilizadas
 * HTML
 * CSS
 * Git
-## Página Listicle
-### Screenshoot de la página listicle :
+## Página Menú Fast Access
+### Screenshoot del website :
 Website:
-![screenshot-website](https://github.com/JuanCarlosLV/practica-listicle/assets/80495307/db1859f7-44db-4d92-a1f4-d311471dcb01)
+![screenshot-website](/public/pagina-web.PNG)
 
 Link de la página: 
