@@ -1,14 +1,17 @@
-const arrow = document.getElementById("arrow");
-const dropdownContent = document.getElementById("dropdown-content");
 
-arrow.addEventListener("click", () => {
-  // Alternar la clase 'rotate' en la imagen
-  arrow.classList.toggle("rotate");
+document.addEventListener("DOMContentLoaded", function () {
+  const categoryContainers = document.querySelectorAll(".category-container");
 
-  // Mostrar u ocultar el contenido del dropdown
-  if (dropdownContent.style.display === "block") {
-    dropdownContent.style.display = "none";
-  } else {
-    dropdownContent.style.display = "block";
-  }
+  categoryContainers.forEach((container) => {
+    const optionsSection = container.querySelector(".options");
+    const headerCategory = container.querySelector(".header-category");
+
+    headerCategory.addEventListener("click", function () {
+      if (optionsSection.style.display === "none" || optionsSection.style.display === "") {
+        optionsSection.style.display = "flex";
+      } else {
+        optionsSection.style.display = "none";
+      }
+    });
+  });
 });

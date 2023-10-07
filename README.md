@@ -8,7 +8,7 @@ Construir una página web listicle con HTML y CSS.
 ## Indice
 * [Presentación](#Presentación)
 * [Objetivo de la práctica](#Objetivo-de-la-práctica)
-* [Desarrollo del Menú](#Desarrollo-del-Menú)
+* [Temática del sitio web](#Temática-del-sitio-web)
 * [Página Menú Fast Access](#Página-Menú-Fast-Access)
 
 ## Presentación
@@ -19,11 +19,10 @@ Construir una página web listicle con HTML y CSS.
 * Fecha: 06/10/2023
 ## Objetivo de la práctica
 El objetivo de esta práctica es diseñar y desarrollar un sitio web bien estructurado el cual incorpore un menpu de acceso rápido hacia diversas páginas.
-### Temática del sitio web
+## Temática del sitio web
 En esta página web se tiene como tema "Librería de recursos gratuitos para Diseñadores UI/UX".
 Este menú de acceso rápido se divide en subcategorias los cuales contienen diversas accesos a diversos contenidos dependiendo de la subcategoria.
 
-## Desarrollo del Menú
 ### Tecnologías utilizadas
 * HTML
 * CSS

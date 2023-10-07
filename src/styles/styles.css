@@ -25,6 +25,7 @@ body {
   align-items: center;
   background-color: black;
   color: white;
+  padding: 20px;
 }
 
 .options {
@@ -44,8 +45,6 @@ body {
 
 }
 
-
-
 .container-option{
   display: flex;
   flex: 0 0 calc(22% - 5px);
@@ -57,7 +56,6 @@ body {
   border-radius: 10px;
 
 }
-
 
 .container-option img{
   width: 200px;
@@ -101,6 +99,7 @@ body {
   padding: 0 15px;
   border-radius: 10px;
   background-color: #9F5015;
+  cursor: pointer;
 }
 
 .header-category img{
